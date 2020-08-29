@@ -24,4 +24,6 @@ The following tools were utilized to gather this data:
 - [Shapely](https://shapely.readthedocs.io/en/latest/manual.html)
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+[JavaScript](https://www.javascript.com/) was also significantly utilized as a direct result of using [Pyppeteer](https://pyppeteer.github.io/pyppeteer/).
+
 Other Python libraries used include [tqdm](https://github.com/tqdm/tqdm), [typing_extensions](https://github.com/python/typing/blob/master/typing_extensions/README.rst), [typing](https://github.com/python/typing), [contextlib](https://docs.python.org/3/library/contextlib.html), [json](https://docs.python.org/3/library/json.html), [functools](https://docs.python.org/3/library/functools.html), and [os](https://docs.python.org/3/library/os.html).
