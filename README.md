@@ -1,6 +1,6 @@
 # Get Food NYC Dataset
 
-This is a quick-and-dirty web scraper that gathers the data behind [Get Food NYC](https://dsny.maps.arcgis.com/apps/webappviewer/index.html?id=35901167a9d84fb0a2e0672d344f176f) by scraping the site directly.
+This is a quick-and-dirty web scraper that gathers the data behind [Get Food NYC](https://dsny.maps.arcgis.com/apps/webappviewer/index.html?id=35901167a9d84fb0a2e0672d344f176f).
 
 This data has additionally been integrated with latitudinal and longitudinal geographic coordinate data scraped from [Google Maps](https://www.google.com/maps) as well as borough location data gathered from [NYC OpenData's Borough Boundaries dataset](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm).
 

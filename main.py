@@ -1,9 +1,19 @@
-'#!/usr/bin/python3 -OO' # @todo enable this
+#!/usr/bin/python3 -OO
 
 '''
-'''
 
-# @todo update doc string
+This is a quick-and-dirty web scraper that gathers the data behind Get Food NYC (found at https://dsny.maps.arcgis.com/apps/webappviewer/index.html?id=35901167a9d84fb0a2e0672d344f176f).
+
+Sections:
+* Imports
+* Globals
+* Web Scraping Utilities
+* Pyppeteer Extensions
+* Sanity Checking
+* Get Food NYC Scraper
+* Driver
+
+'''
 
 ###########
 # Imports #
@@ -257,7 +267,7 @@ def coordinates_from_url(url: str) -> Tuple[float, float]:
 
 async def scrape_geospatial_data(location_dict: dict) -> dict:
     result_found = False
-    async with new_browser(headless=True) as browser: # @todo make this headless
+    async with new_browser(headless=True) as browser:
         page = only_one(await browser.pages())
         await page.goto(LAT_LONG_URL)
         await page.waitForSelector('#searchboxinput')
