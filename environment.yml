@@ -1,14 +1,10 @@
 name: nyc_food
 dependencies:
   - python=3.7
-  - pytorch
-  - pandas
   - tqdm
   - beautifulsoup4
   - conda-forge::shapely
   - conda-forge::typing_extensions
-  - more-itertools
-  - psutil
   - pip
   - pip:
     - pyppeteer

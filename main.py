@@ -23,8 +23,6 @@ from typing import Union, List, Tuple, Iterable, Callable, Awaitable, Coroutine
 
 from misc_utilities import *
 
-# @todo review these imports to make sure everything is used
-
 ###########
 # Globals #
 ###########
